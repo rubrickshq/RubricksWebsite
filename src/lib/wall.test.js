@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { buildWall } from './wall'
 
-// Expected values come from running the original inline script in legacy/index.html.
+// Expected values come from running the original site's inline wall script (see the first commit).
 const SHADES =
   '-,-,deep,-,-,-,deep,light,-,-,-,-,-,deep,-,-,-,-,-,-,-,deep,light,light,deep,-,light,-,-,-,-,-,-,light,-,-,-,-,-,-,-,-,deep,light,-,light,-,-,-,-,-,-,deep,-,-,deep,deep,-,-,-,light,-,-,-,-,-,-,-,-,-,-,deep,-,-,-,light,light,light,-,-,-,deep'.split(',')
 

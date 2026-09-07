@@ -23,7 +23,6 @@ src/index.css           global styles (unchanged from the original site)
 src/lib/wall.js         running-bond brick-wall generator (pure function)
 src/components/         Header, Hero, BrickWall, Divisions, Process, Community, Contact, Footer
 src/__tests__/          rendering tests (Vitest + Testing Library)
-legacy/index.html       the original static site, kept for reference
 ```
 
 ## Deploy to Vercel
