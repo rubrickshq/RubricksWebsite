@@ -54,6 +54,10 @@ vercel               # first run links the folder to a new project and creates a
 vercel --prod        # deploy to production
 ```
 
+## Web Analytics
+
+Vercel Web Analytics is enabled on the project. The `<Analytics />` component from `@vercel/analytics/react` is mounted in `src/App.jsx`; it loads `/_vercel/insights/script.js` in production and a no-op debug script locally.
+
 ## Connect your domain
 
 1. In the Vercel dashboard open the project, then **Settings → Domains**.
